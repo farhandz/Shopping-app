@@ -5,9 +5,9 @@ project arkademy task
 ___
 
 
-<p align="center">
-<img src="[![Netlify Status](https://api.netlify.com/api/v1/badges/cae19451-9305-4e54-b5dd-bb7b9fcdc8b2/deploy-status)](https://app.netlify.com/sites/quirky-jepsen-62face/deploys)" />
-</p>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cae19451-9305-4e54-b5dd-bb7b9fcdc8b2/deploy-status)](https://app.netlify.com/sites/quirky-jepsen-62face/deploys)
+
 
 
 # description
