@@ -18,7 +18,7 @@ Shopping app is designed with Figma
 
 # view the page
 ___
-## go to page: [https://quirky-jepsen-62face.netlify.app/](url)
+## go to page: [shopping app](https://quirky-jepsen-62face.netlify.app/)
 
 --or--
 
