@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="/reset.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/onepage.css" />
+  </head>
+  <body class="container-wrapper">
+    <header>
+      <div class="content-head">
+        <div class="ctn-search" style="cursor: pointer;">
+          <img src="assets/icon/menu (1).svg" alt="" />
+        </div>
+        <div class="ctn">Food Items</div>
+        <div class="ctn">
+          <img src="assets/image/magnifying-glass (2).png" alt="" />
+        </div>
+        <div class="ctn">
+          <img src="assets/image/Cart Title.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li
+        style="cursor: pointer;"
+        ype="button"
+        data-toggle="modal"
+        data-target="#modal2"
+        ><img src="assets/icon/add.png" alt="" /></li>
+        <li><a href="/dashboard.html"><img src="assets/icon/clipboard.png" alt="" /></a></li>
+        <li><a href="index.html"><img src="assets/icon/fork (1).png" alt="" /></a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="image">
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/expreso.png" alt="" />
+            <p>Expreso</p>
+            <h1>Rp.10.0000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/coffe late.png" alt="" />
+            <p>Cofee Latte</p>
+            <h1>Rp. 15.000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/cappucino.png" alt="" />
+            <p>cappucino</p>
+            <h1>Rp.5.000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/redvelvet.png" alt="" />
+            <p>Red Velvet Latte</p>
+            <h1>Rp. 33.000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/chocorum.png" alt="" />
+            <p>Choco Rhum</p>
+            <h1>Rp. 28.000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/blackforest.png" alt="" />
+            <p>Black Forest</p>
+            <h1>Rp. 30.000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/chickenkatsu.png" alt="" />
+            <p>Chicken Katsu Dabu-dabu</p>
+            <h1>Rp. 60.000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/salmon.png" alt="" />
+            <p>Salmon Truffle Teriyaki</p>
+            <h1>Rp. 60.000</h1>
+          </div>
+        </div>
+        <div class="tayo">
+          <div class="menu-image">
+            <img src="assets/image/wiener.png" alt="" />
+            <p>Wiener Schnitzel</p>
+            <h1>Rp. 69.000</h1>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside class="side">
+      <div class="aside-nav">
+        <div class="tayo-nav">
+          <div class="ty-1"><img src="assets/image/b-mini.png" alt="" /></div>
+          <div class="ty-2">
+            <h1>coffe late</h1>
+            <div class="jml">
+              <div><button>-</button></div>
+              <div><span>1</span></div>
+              <div><button>+</button></div>
+            </div>
+          </div>
+          <div class="ty-3">Rp. 15.000</div>
+        </div>
+        <div class="tayo-nav">
+          <div class="ty-1"><img src="assets/image/b-mini.png" alt="" /></div>
+          <div class="ty-2">
+            <h1>coffe late</h1>
+            <div class="jml">
+              <div><button>-</button></div>
+              <div><span>1</span></div>
+              <div><button>+</button></div>
+            </div>
+          </div>
+          <div class="ty-3">Rp. 15.000</div>
+        </div>
+        <div class="tayo-nav">
+          <div class="ty-1"><img src="assets/image/b-mini.png" alt="" /></div>
+          <div class="ty-2">
+            <h1>coffe late</h1>
+            <div class="jml">
+              <div><button>-</button></div>
+              <div><span>1</span></div>
+              <div><button>+</button></div>
+            </div>
+          </div>
+          <div class="ty-3">Rp. 60.000</div>
+        </div>
+      </div>
+      <div class="aside-nav2">
+        <div class="total">
+          <div class="ttl-hrg">
+            <h1>total</h1>
+            <span>*belum termasuk pajak</span>
+          </div>
+          <div class="ttl-jml"><h1>Rp. 105.000</h1></div>
+        </div>
+        <div class="checkout">
+          <button data-toggle="modal" data-target="#exampleModal">
+            checkout
+          </button>
+          <button class="ctn-search" id="cnc">Cancel</button>
+        </div>
+      </div>
+    </aside>
+    <footer class="fixed-bottom">
+      <div class="footer-content">
+        <div class="ftn" ><a href="/dashboard.html"><img src="assets/icon/clipboard.png" alt="" /></a></div>
+        <div class="ftn" ><a href="/index.html"><img src="assets/icon/fork (1).png" alt="" /></a></div>
+        <div class="ftn"
+        style="cursor: pointer;"
+        ype="button"
+        data-toggle="modal"
+        data-target="#modal2">
+        <img src="assets/icon/add.png" alt="" /></div>
+      </div>
+    </footer>
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="mdl1">
+              <p class="font-weight-bold">Checkout</p>
+              <p>Cashier : Pevita Pearce</p>
+            </div>
+            <div class="mdl2">
+              <p class="font-weight-bold">Receipt no: #010410919</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="mdl-body">
+              <div class="list-item">Coffee Latte 1x</div>
+              <div class="price">15000</div>
+            </div>
+            <div class="mdl-body">
+              <div class="list-item">Coffee Latte 1x</div>
+              <div class="price">15000</div>
+            </div>
+            <div class="mdl-body">
+              <div class="list-item">Coffee Latte 1x</div>
+              <div class="price">15000</div>
+            </div>
+            <div class="mdl-body">
+              <div class="list-item">Coffee Latte 1x</div>
+              <div class="price">15000</div>
+            </div>
+            <div class="mdl-body">
+              <div class="list-item">Coffee Latte 1x</div>
+              <div class="price">15000</div>
+            </div>
+            <div class="mdl-body">
+              <div></div>
+              <div class="price">total: 15000</div>
+            </div>
+            <div class="font-weight-bold">Payment Cash</div>
+            <div class="mdl-button">
+              <button class="print">Print</button>
+              <span class="font-weight-bold">or</span>
+              <button class="print">Send Email</button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              x
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- modal2 -->
+     <div
+      class="modal fade"
+      id="modal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>add item</h5>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label"
+                  >name</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputPassword"
+                    placeholder="name"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label"
+                  >image</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputPassword"
+                    placeholder="image"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label"
+                  >price</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputPassword"
+                    placeholder="price"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label"
+                  >Category</label
+                >
+                <div class="col-sm-10">
+                  <div class="btn-group">
+                    <button type="button" class="btn form-control">
+                      categori
+                    </button>
+                    <button
+                      type="button"
+                      class="btn form-control dropdown-toggle dropdown-toggle-split"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Category</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+                <div class="modal-footer mod-foot">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button class="add">add</button>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal2 -->
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    const data = document.querySelectorAll(".tayo");
+    const data2 = [...data];
+    data2.forEach((dt) => {
+      dt.addEventListener("click", function () {
+        dt.classList.toggle("content-image");
+      });
+    });
+  </script>
+  <script>
+    const search = document.querySelectorAll(".ctn-search");
+    const spSearch = [...search];
+    const slide = document.querySelector(".side");
+    spSearch.forEach((dt) => {
+      dt.addEventListener("click", () => {
+        slide.classList.toggle("slider");
+      });
+    });
+  </script>
+  <script>
+    const print = document.querySelector(".print");
+    print.addEventListener("click", () => {
+      swal({
+        title: "Berhasil!",
+        text: "Pesanan anda sedang di proses",
+        icon: "success",
+        button: "pesan kembali",
+      }).then(function(){
+          window.location = 'none.html';
+      })
+    });
+     const add = document.querySelector('.add')
+      add.addEventListener('click', ()=>{
+          swal({
+        title: "Berhasil!",
+        text: "Pesanan anda sedang di proses",
+        icon: "success",
+        button: "pesan kembali",
+      }).then(function(){
+          window.location = '/';
+      })
+      })
+  </script>
+</html>
